@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.trabajos{
+	width: 250px;
+	height: 150px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	font-size: 1rem;
+}
+
+h1{
+	font-size: 3.5rem;
+	margin: 75px 0:;
+}
+
+h2 , h3{
+	font-size: 2rem;
+	margin: 75px 0:;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+form input[type="submit"]{
+	margin: 6px 0;
+	background-color: #794146;
+	transition: all 1s;
+	color: white;	
+	width: 80px;
+	height: 40px;	
+}
+header nav{
+	background-color: #794146;
+	padding: 25px 0;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	margin: 0 auto;
+}
+
+main section#image{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main section#image div img{
+	margin: 0 auto;
+	width: 1020px;
+	height: 500px;
+}
+
+section#noticias{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section#noticias form input[type="submit"]{
+	background-color: #794146;
+	transition: all 1s;
+	color: white;	
+	width: 80px;
+	height: 40px;	
+}
+
+section#noticias form input[type="submit"]:hover{
+	background-color: white;
+	color: black
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 50px 0;
+	display: flex;
+}
+
+footer small{
+	margin: 0 auto;
+}
